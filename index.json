@@ -1,5 +1,5 @@
 [
 { "Name":"Henry Palmer", "Email":"henryrpalmer@lewisu.edu", "ContactURL":"https://web-site-hrp-azure.azurewebsites.net/henry-info.json" },  
-{ "Name":"Eren Jaeger", "Email":"attackTitan@lewisu.edu", "ContactURL":"https://web-site-hrp-azure.azurewebsites.net/eren-jaeger.json" },  
-{ "Name":"Levi Ackermann", "Email":"bestSoloScout@lewisu.edu", "ContactURL":"https://web-site-hrp-azure.azurewebsites.net/levi-ackermann.json" }
+{ "Name":"Henry Palmer", "Email":"henryrpalmer@lewisu.edu", "ContactURL":"https://web-site-hrp-azure.azurewebsites.net/eren-jaeger.json" },  
+{ "Name":"Henry Palmer", "Email":"henryrpalmer@lewisu.edu", "ContactURL":"https://web-site-hrp-azure.azurewebsites.net/levi-ackermann.json" }
  ]
