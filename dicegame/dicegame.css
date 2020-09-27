@@ -1,0 +1,38 @@
+table tr td {
+    text-align: center;
+    margin: auto;
+}
+td {
+    font-size: 24px;
+}
+table { 
+    width: 50%;
+    margin: auto;
+    background-color: navajowhite; }
+button {
+    text-align: center;
+    font-size: large;
+    background-color: lightblue;
+    height:50px; 
+    width:100px;
+}
+button:hover {
+    background-color: whitesmoke;
+}
+.centerButton {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    background-color: lightblue;
+    border-radius: 10px;
+}
+body {
+    background-color: darksalmon;
+}
+p {
+    text-align: center;
+    font-size: 16pt;
+    background-color: lightblue;
+    border-radius: 10px;
+}

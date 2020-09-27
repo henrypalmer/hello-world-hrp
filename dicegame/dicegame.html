@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<!--
+	Author:  Henry Palmer
+	Course: Software Engineering
+	Project: Dice game for Lab 2
+-->
+<head>
+    <link rel="stylesheet" href="dicegame.css">
+    <script src="dicegame.js"></script>
+<meta charset="utf-8">
+	<title>Henry's Dice Game</title>
+</head>
+<!-- set the onload value to call our rolling function-->
+<body onload="RollTheDice()">
+    <h1>Ready to play Bunco?</h1>
+    <p>Bunco is a game played with 9 dice. This is a team based game. The goal is to roll the exact 
+        amount of dice that matches the round of play you are on. So, if you are on round two, your goal is roll at least 
+        two "2"s. Every team gets a roll per round. When the numbers and amount of dice match, that is when you say 
+        "BUNCO!" and you earn a point. Whoever has the most points by round nine wins! Have fun!
+    </p>
+    <table>
+        <!-- creating the table of dice that the player will see-->
+        <tr>
+            <td>Dice 1: <input type="text" id="die1" size="4" disabled></td>
+            <td>Dice 2: <input type="text" id="die2" size="4" disabled></td>
+            <td>Dice 3: <input type="text" id="die3" size="4" disabled></td>
+            <td>Dice 4: <input type="text" id="die4" size="4" disabled></td>
+            <td>Dice 5: <input type="text" id="die5" size="4" disabled></td>
+            <td>Dice 6: <input type="text" id="die6" size="4" disabled></td>
+            <td>Dice 7: <input type="text" id="die7" size="4" disabled></td>
+            <td>Dice 8: <input type="text" id="die8" size="4" disabled></td>
+            <td>Dice 9: <input type="text" id="die9" size="4" disabled></td>
+        </tr>
+    </table>
+    <!--button to roll the dice with the autofocus attribute as well-->
+    <div class="centerButton">
+        <button type="button" autofocus onclick="RollTheDice()">Lets Roll!</button>
+    </div>
+</body>
+</html>
