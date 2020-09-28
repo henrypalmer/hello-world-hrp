@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<!--
+    Author:  Henry Palmer
+    Class:   Software Engineering
+    Description: This is my Regexp tester which will take input and return whether or not the regexp is true. 
+-->
+    <head>
+        <meta charset="UTF-8">
+        <title>Henry's RegExp Tester</title>
+        <link rel="stylesheet" href="regexp.css">
+        <script src="regexp.js"></script>
+    </head>
+    <body>
+        <h1>RegExp Tester</h1>
+        <p>Enter the string you want to test:</p> 
+        <input id="strToVerify" type="text" size="16">
+        <p>Enter the regular expression pattern you want to test the above string to:</p>
+        <input id="regExpPattern" type="text">
+        <p>Enter a flag here if applicable:</p>
+        <input id="flagField" type="text">
+        <button type="button" onclick="TestReg()" autofocus>Click me to test!<br></button>
+        <input type="text" id="regOutput" disabled>
+    </body>
+</html>
